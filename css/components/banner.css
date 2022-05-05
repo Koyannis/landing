@@ -1,0 +1,45 @@
+.banner {
+background-image: url('../../images/background.png') ;
+height: 100vh;
+background-attachment: fixed;
+
+}
+
+.banner .container {
+  color: white;
+  padding: 200px;
+  padding-left: 200px;
+}
+
+.banner p {
+  color: white;
+  opacity: .7;
+  font-size: 20px;
+  line-height: 50%;
+  padding-bottom: 20px;
+}
+
+.button{
+width: 200px;
+text-decoration: none;
+background-color: #AA78A6;
+padding: 10px;
+margin-top: 50px;
+border-radius: 30px;
+color: white;
+}
+
+.button:hover {
+  transition: 0.9s ease-in-out;
+  padding: 40vh;
+  font-size: 100px;
+  background-color: rgb(145, 51, 51);
+  content: "Reply!"
+}
+
+.button:after{
+  content:'Ne passez pas votre curseur ici';
+}
+.button:hover:after{
+  content:'OH NONONONONONNONONONONONNONONONO';
+}
